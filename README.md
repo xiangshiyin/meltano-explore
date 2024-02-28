@@ -1,8 +1,10 @@
 **Table of Contents**
 - [meltano-explore](#meltano-explore)
   - [Environment setup](#environment-setup)
-  - [Examples:](#examples)
-  - [Build a customized extractor](#build-a-customized-extractor)
+  - [Appendix](#appendix)
+    - [Free fake API for test](#free-fake-api-for-test)
+    - [Meltano SDK](#meltano-sdk)
+    - [Build a customized extractor](#build-a-customized-extractor)
 
 
 # meltano-explore
@@ -97,7 +99,13 @@ Removed extractor 'tap-google-sheets' from plugins/extractors/tap-google-sheets*
 
 </details>
 
-## Examples:
-## Build a customized extractor
+## Appendix
+### Free fake API for test
+https://jsonplaceholder.typicode.com/
+
+### Meltano SDK
+https://sdk.meltano.com/en/latest/dev_guide.html
+
+### Build a customized extractor
 https://docs.meltano.com/tutorials/custom-extractor
 
