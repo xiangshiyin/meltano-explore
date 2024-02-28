@@ -28,7 +28,8 @@ class jsonplaceholderStream(RESTStream):
     def url_base(self) -> str:
         """Return the API URL root, configurable via tap settings."""
         # TODO: hardcode a value here, or retrieve it from self.config
-        return "https://api.mysample.com"
+        # return "https://api.mysample.com"
+        return "https://jsonplaceholder.typicode.com"
 
     records_jsonpath = "$[*]"  # Or override `parse_response`.
 

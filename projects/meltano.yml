@@ -5,3 +5,8 @@ environments:
 - name: dev
 - name: staging
 - name: prod
+plugins:
+  loaders:
+  - name: target-jsonl
+    variant: andyh1203
+    pip_url: target-jsonl
