@@ -5,8 +5,3 @@ environments:
 - name: dev
 - name: staging
 - name: prod
-plugins:
-  extractors:
-  - name: tap-google-sheets
-    variant: matatika
-    pip_url: git+https://github.com/Matatika/tap-google-sheets.git
