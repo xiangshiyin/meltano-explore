@@ -59,7 +59,7 @@ Next steps:
 
 </details>
 
-6. Run `meltano add extractor tap-google-sheets`
+6. Run `meltano add extractor tap-google-sheets` to add an extractor tap
 <details>
 <summary>Output</summary>
 
@@ -75,6 +75,24 @@ Installing extractor 'tap-google-sheets'...
 Installed extractor 'tap-google-sheets'
 
 To learn more about extractor 'tap-google-sheets', visit https://hub.meltano.com/extractors/tap-google-sheets--matatika
+```
+
+</details>
+
+7. Run `meltano remove extractor tap-google-sheets` to remove the extractor tap
+<details>
+<summary>Output</summary>
+
+```
+❯ meltano remove extractor tap-google-sheets                                                                             (base)
+
+Removing extractor 'tap-google-sheets'...
+
+2024-02-28T05:15:21.179487Z [warning  ] `kind: password` is deprecated for setting definitions in favour of `sensitive: true`, and is currently in use by the following settings of extractor 'tap-google-sheets': 'oauth_credentials.client_id', 'oauth_credentials.client_secret', 'oauth_credentials.refresh_token', 'sheet_id'. Please open an issue or pull request to update the plugin definition on Meltano Hub at https://github.com/meltano/hub/blob/main/_data/meltano/extractors/tap-google-sheets/matatika.yml.
+Reset extractor 'tap-google-sheets' plugin settings in the system database
+Removed extractor 'tap-google-sheets' from meltano.yml
+Removed extractor 'tap-google-sheets' from .meltano/extractors
+Removed extractor 'tap-google-sheets' from plugins/extractors/tap-google-sheets*.lock
 ```
 
 </details>
